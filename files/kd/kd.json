@@ -1,0 +1,92 @@
+{"frames": {
+
+"files/kd/kd-0.png":
+{
+	"frame": {"x":0,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-1.png":
+{
+	"frame": {"x":51,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-2.png":
+{
+	"frame": {"x":102,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-3.png":
+{
+	"frame": {"x":153,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-4.png":
+{
+	"frame": {"x":204,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-5.png":
+{
+	"frame": {"x":0,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-6.png":
+{
+	"frame": {"x":51,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-7.png":
+{
+	"frame": {"x":102,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-8.png":
+{
+	"frame": {"x":153,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/kd/kd-9.png":
+{
+	"frame": {"x":204,"y":104,"w":51,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":105},
+	"sourceSize": {"w":51,"h":105}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "kd.png",
+	"format": "RGBA8888",
+	"size": {"w":255,"h":209},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9c2877e1f4143beda93c4f4c5f092a04:115b9d374ca012e5b7e740d7629b105b:44dc6d790ca89751b1d28b138623201f$"
+}
+}
