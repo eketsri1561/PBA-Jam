@@ -1,0 +1,92 @@
+{"frames": {
+
+"files/lamelo/lamelo-0.png":
+{
+	"frame": {"x":0,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-1.png":
+{
+	"frame": {"x":51,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-2.png":
+{
+	"frame": {"x":102,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-3.png":
+{
+	"frame": {"x":153,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-4.png":
+{
+	"frame": {"x":204,"y":0,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-5.png":
+{
+	"frame": {"x":0,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-6.png":
+{
+	"frame": {"x":51,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-7.png":
+{
+	"frame": {"x":102,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-8.png":
+{
+	"frame": {"x":153,"y":104,"w":51,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":104},
+	"sourceSize": {"w":51,"h":105}
+},
+"files/lamelo/lamelo-9.png":
+{
+	"frame": {"x":204,"y":104,"w":51,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":105},
+	"sourceSize": {"w":51,"h":105}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "lamelo.png",
+	"format": "RGBA8888",
+	"size": {"w":255,"h":209},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d6cfeb0d7979ceaf9372316994c92c95:46102ef36fba4ab58eca047f2aead2ab:656a83c1bb6f537d84883830356d9b56$"
+}
+}
