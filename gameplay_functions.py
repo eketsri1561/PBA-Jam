@@ -145,25 +145,13 @@ class Player(pygame.sprite.Sprite):
         self.is_animating = False
 
         if possession:
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
-            self.sprites.append(
-                pygame.image.load(f"{players[p1_i][1]}"))
+            for i in range(7):
+                self.sprites.append(
+                    pygame.image.load(f"{players[p1_i][1]}"))
         else:
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
-            self.sprites.append(pygame.image.load(f"{players[p2_i][1]}"))
+            for i in range(7):
+                self.sprites.append(
+                    pygame.image.load(f"{players[p2_i][1]}"))
 
         self.current_sprite = 0
         self.image = self.sprites[self.current_sprite]
@@ -313,36 +301,18 @@ def p_soda(possession, p1_i, p2_i):
     """
     if possession:
         p1_spritesheet = Spritesheet(f"{players[p1_i][0]}.png")
-        player1 = [
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-0.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-1.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-2.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-3.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-4.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-5.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-6.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-7.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-7.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-8.png"),
-            p1_spritesheet.parse_sprite(f"{players[p1_i][0]}-9.png")
-        ]
+        player1 = []
+        for i in range(10):
+            player1.append(p1_spritesheet.parse_sprite
+                           (f"{players[p1_i][0]}-{i}.png"))
         player2_d = pygame.image.load(
             f"{players[p2_i][2]}.png").convert_alpha()
     else:
         p1_spritesheet = Spritesheet(f"{players[p2_i][0]}.png")
-        player1 = [
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-0.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-1.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-2.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-3.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-4.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-5.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-6.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-7.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-7.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-8.png"),
-            p1_spritesheet.parse_sprite(f"{players[p2_i][0]}-9.png")
-        ]
+        player1 = []
+        for i in range(10):
+            player1.append(p1_spritesheet.parse_sprite
+                           (f"{players[p2_i][0]}-{i}.png"))
         player2_d = pygame.image.load(
             f"{players[p1_i][2]}.png").convert_alpha()
 
@@ -610,10 +580,9 @@ class GameConstants:
 
 
 def offensive_player(player1_x, player1_y, player1_x_change, player1_y_change,
-                     player2_d_x_change,
-                     player2_d_y_change, possession, jumping, moving_sprites,
-                     jumper, shoot, line, midpnt, x, y, t_ime,
-                     power, angle, p1_i, p2_i):
+                     player2_d_x_change, player2_d_y_change, possession,
+                     jumping, moving_sprites, jumper, shoot, line, midpnt,
+                     x, y, t_ime, power, angle, p1_i, p2_i):
     if possession:
         (player1_x, player1_y, player1_x_change, player1_y_change,
          player2_d_x_change, player2_d_y_change, possession, jumping,

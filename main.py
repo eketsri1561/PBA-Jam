@@ -1,7 +1,7 @@
 import pygame
-from functions import collision_sprites, ball_path, midpoint, bucket, Player, \
-    Points, p_soda, boundary, pre_func, show_score, home_away, game_over, \
-    swish_sound, main_menu, GameConstants, offensive_player
+from gameplay_functions import collision_sprites, ball_path, midpoint, bucket,\
+    Player, Points, p_soda, boundary, pre_func, show_score, home_away, \
+    game_over, swish_sound, main_menu, GameConstants, offensive_player
 
 # Initiating Pygame and creating the game window along with establishing
 # some of the png and framerate components.
